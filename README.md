@@ -1,7 +1,7 @@
 # Image Segmentation for GlaS dataset
 
 To generate the .npy files that will be used for training and testing:
-  python get_datasets.py
+  python npy_glas_dataset.py
 
 - In these files will be the original dataset:
 "train_img.npy"
