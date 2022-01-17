@@ -6,7 +6,6 @@ def free_gpu_cache():
     print("Initial GPU Usage")
     gpu_usage()
 
-
     print(torch.cuda.is_available())
 
     torch.cuda.empty_cache()

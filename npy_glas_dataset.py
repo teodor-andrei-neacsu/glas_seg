@@ -72,6 +72,8 @@ def get_glas_data(ds_path, cwd_path):
     return X_train, np.expand_dims(y_train, axis=3), X_test, np.expand_dims(y_test, axis=3)
 
 
+verbose = False
+
 # Testing get_*_data
 cwd = os.getcwd()
 glas_path = "GlaS/"
