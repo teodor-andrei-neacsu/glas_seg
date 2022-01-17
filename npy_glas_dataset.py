@@ -53,9 +53,6 @@ def get_glas_data(ds_path, cwd_path):
         x_img = cv2.imread("testB_" + str(img_no) + ".bmp")
         y_img = cv2.imread("testB_" + str(img_no) + "_anno.bmp", cv2.IMREAD_GRAYSCALE)
 
-        # cv2.imshow("x_train sample", x_img)
-        # cv2.waitKey(0)
-
         x_img = cv2.resize(x_img, (img_w, img_h), interpolation=cv2.INTER_LANCZOS4)
         y_img = cv2.resize(y_img, (img_w, img_h), interpolation=cv2.INTER_LANCZOS4)
 
