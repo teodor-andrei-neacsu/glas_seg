@@ -25,3 +25,7 @@ K. Sirinukunwattana, J. P. W. Pluim, H. Chen, X Qi, P. Heng, Y. Guo, L. Wang, B.
 ## To test the U-Net model:
 
     python train_unet.py test
+
+## To plot the training process (Jaccard index, Dice score and loss):
+
+    python train_unet.py plot
