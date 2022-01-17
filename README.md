@@ -29,3 +29,7 @@ K. Sirinukunwattana, J. P. W. Pluim, H. Chen, X Qi, P. Heng, Y. Guo, L. Wang, B.
 ## To plot the training process (Jaccard index, Dice score and loss):
 
     python train_unet.py plot
+
+- TODO
+- create a torch GLAS dataset
+- choose different loss functions (try dice loss) and optimizers
