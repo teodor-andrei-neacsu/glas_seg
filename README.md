@@ -20,8 +20,8 @@ K. Sirinukunwattana, J. P. W. Pluim, H. Chen, X Qi, P. Heng, Y. Guo, L. Wang, B.
 
 ## To train the U-Net model:
 
-    python train_unet.py
+    python train_unet.py train
 
 ## To test the U-Net model:
 
-    python test_unet.py [show_samples]
+    python train_unet.py test
